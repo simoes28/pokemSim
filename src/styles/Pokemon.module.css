@@ -1,0 +1,135 @@
+.pokemonContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokemonContainer h3{
+    margin: .6rem auto;
+    font-size: 2rem;
+}
+
+.pokemonTitle{
+    font-size: 3rem;
+    text-transform: capitalize;
+    background-color: #333;
+    color: white;
+    padding: .3rem;
+    margin: .8rem auto;
+    width: 50rem;
+}
+
+.typesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.type{
+    padding: .6rem 1rem;
+    color: white;
+    background-color: #000;
+    border: .1rem solid #ccc;
+    border-radius: .6rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.type_normal {
+    background-color: #aa9;
+  }
+  
+  .type_fire {
+    background-color: #f42;
+  }
+  
+  .type_water {
+    background-color: #39f;
+  }
+  
+  .type_eletric {
+    background-color: #fc3;
+  }
+  
+  .type_grass {
+    background-color: #7c5;
+  }
+  
+  .type_ice {
+    background-color: #6cf;
+  }
+  
+  .type_fighting {
+    background-color: #b54;
+  }
+  
+  .type_poison {
+    background-color: #a59;
+  }
+  
+  .type_ground {
+    background-color: #db5;
+  }
+  
+  .type_flying {
+    background-color: #89f;
+  }
+  
+  .type_psychic {
+    background-color: #f59;
+  }
+  
+  .type_bug {
+    background-color: #ab2;
+  }
+  
+  .type_rock {
+    background-color: #ba6;
+  }
+  
+  .type_ghost {
+    background-color: #66b;
+  }
+  
+  .type_dragon {
+    background-color: #76e;
+  }
+  
+  .type_dark {
+    background-color: #754;
+  }
+  
+  .type_steel {
+    background-color: #aab;
+  }
+  
+  .type_fairy {
+    background-color: #e9e;
+  }
+
+.dataContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.dataContainer div{
+    margin: 1rem 0;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dataHeight{
+    border-right: 0.1rem solid #ccc;
+}
+
+.dataWeight{
+
+}

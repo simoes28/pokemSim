@@ -1,0 +1,20 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+}
+
+.aboutContainer h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.aboutContainer p{
+    max-width: 50rem;
+    margin: 0 auto 2rem;
+    line-height: 1.4;
+}
